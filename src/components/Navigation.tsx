@@ -1,16 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const links = [
-  { href: '#accueil', label: 'Accueil' },
-  { href: '#a-propos', label: 'À propos' },
-  { href: '#formation', label: 'Formation' },
-  { href: '#experiences', label: 'Expériences' },
-  { href: '#competences', label: 'Compétences' },
-  { href: '#enseignement', label: 'Enseignement' },
-  { href: '#controles', label: 'Contrôles' },
-  { href: '#contact', label: 'Contact' },
-];
+import { NAV_LINKS as links } from '../lib/constants';
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
