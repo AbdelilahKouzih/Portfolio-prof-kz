@@ -33,7 +33,7 @@ const controles: Controle[] = [
     isDiagnostic: true,
     documents: [
       { label: "Rapport d'évaluation", icon: FileSpreadsheet, href: '#' },
-      { label: "Éléments de réponse", icon: FileCheck2, href: '#' },
+      { label: "Correction du contrôle", icon: FileCheck2, href: '#' },
       { label: "Fiche d'évaluation", icon: ClipboardList, href: '#' },
     ],
   },
@@ -45,7 +45,7 @@ const controles: Controle[] = [
     desc: "Premier contrôle continu portant sur les notions introductives de l'informatique.",
     documents: [
       { label: "Énoncé du contrôle", icon: FileText, href: '#' },
-      { label: "Éléments de réponse", icon: FileCheck2, href: '#' },
+      { label: "Correction du contrôle", icon: FileCheck2, href: '#' },
     ],
   },
   {
@@ -56,7 +56,7 @@ const controles: Controle[] = [
     desc: "Évaluation portant sur les composants matériels et logiciels d'un système informatique.",
     documents: [
       { label: "Énoncé du contrôle", icon: FileText, href: '#' },
-      { label: "Éléments de réponse", icon: FileCheck2, href: '#' },
+      { label: "Correction du contrôle", icon: FileCheck2, href: '#' },
     ],
   },
   {
@@ -67,7 +67,7 @@ const controles: Controle[] = [
     desc: "Contrôle portant sur l'algorithmique et les structures de contrôle.",
     documents: [
       { label: "Énoncé du contrôle", icon: FileText, href: '#' },
-      { label: "Éléments de réponse", icon: FileCheck2, href: '#' },
+      { label: "Correction du contrôle", icon: FileCheck2, href: '#' },
     ],
   },
   {
@@ -78,7 +78,7 @@ const controles: Controle[] = [
     desc: "Évaluation finale portant sur la programmation et la résolution de problèmes.",
     documents: [
       { label: "Énoncé du contrôle", icon: FileText, href: '#' },
-      { label: "Éléments de réponse", icon: FileCheck2, href: '#' },
+      { label: "Correction du contrôle", icon: FileCheck2, href: '#' },
     ],
   },
 ];
